@@ -43,16 +43,16 @@
     <!-- début du formulaire -->
     <form id="registration_form" method="POST">
         <label for="nom">Votre nom*:</label><br />
-        <input type="text" id="nom" placeholder="nom de famille" /><br />
+        <input type="text" id="nom" placeholder="nom de famille" required /><br />
 
         <label for="prenom">Votre prénom*:</label><br />
-        <input type="text" id="prenom" placeholder="prénom" /><br />
+        <input type="text" id="prenom" placeholder="prénom" required /><br />
 
         <label for="num">Votre numéro de téléphone*:</label><br />
-        <input type="number" id="num" placeholder="0604020103" /><br />
+        <input type="number" id="num" placeholder="0604020103" required /><br />
 
         <label for="email">Adresse e-mail*:</label><br />
-        <input type="email" id="email" /><br />
+        <input type="email" id="email" required /><br />
         <label for="ville">Selectionner la ville :</label><br />
         <select name="ville" id="ville">
             <option value="Lille">Lille</option>
@@ -75,7 +75,7 @@
         <input type="date" id="date"> <br>
 
         <label for="personnes">Nombre de personnes*:</label><br>
-        <input type="number" id="personnes"> <br>
+        <input type="number" id="personnes" required> <br>
 
 
         <p>Vos options:</p>
@@ -89,11 +89,11 @@
         <textarea name="commentaire" id="commentaire">Ajouter un commentaire.</textarea><BR></BR>
 
 
-        <label for="CGV">Acceptation des Conditions Générales de Vente (CGV)*</label> <br>
+        <label>Acceptation des Conditions Générales de Vente (CGV)*</label> <br>
         <label for="CGV1">J'accepte</label>
-        <input type="radio" id="CGV1">
+        <input type="radio" name="CGV" id="CGV1">
         <label for="CGV2">Je refuse</label>
-        <input type="radio" id="CGV2">
+        <input type="radio" name="CGV" id="CGV2"> <br>
 
         <button type="submit">Envoyer ma demande</button>
 
