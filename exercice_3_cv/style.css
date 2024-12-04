@@ -1,0 +1,103 @@
+header{
+    background-color: rgb(28, 173, 125);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-bottom: 5%;
+   
+}
+
+
+.avatar{border-radius: 50%;
+    width: 50px;
+
+   
+
+}
+
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+
+   
+}
+
+
+
+body{background-color: rgba(72, 158, 158, 0.527);}
+
+section {
+
+   display: flex;
+   
+   gap: 30px;
+   justify-content: space-around;
+   margin: 0 20px;
+}
+
+.carte{background-color: beige;
+display: flex;
+flex-direction: column;
+border-radius: 3%;
+width: 25%;
+padding: 30px;
+
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+
+   
+   
+   
+}
+
+
+
+.logo img{
+             width:25% ;
+
+
+}
+
+
+hr{
+    border-top: 2px solid black;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 450px) {
+
+
+
+
+section{
+    
+     flex-direction: column;
+     align-items: center;
+
+  
+
+}
+
+.carte{
+
+width: 80%;
+
+
+}
+
+
+
+
+
+    
+}
+
+
