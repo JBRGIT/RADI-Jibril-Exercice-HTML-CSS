@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "rubik";
+    src: url("./Rubik-VariableFont_wght.ttf");
+}
+
+
+
+
+header {
+    background-color: azure;
+    height: 60px;
+    border-top: 2px solid rgba(0, 0, 0, 0.336);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.336);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+
+footer {
+    background-color: azure;
+    height: 60px;
+    border-top: 2px solid rgba(0, 0, 0, 0.336);
+    margin-top: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+
+}
+
+footer a {
+    color: rgb(113, 113, 124);
+}
+
+footer p {
+    color: rgb(113, 113, 124);
+}
+
+.hdp {
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    padding: 0 20px;
+
+
+}
+
+
+
+
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 50px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.Conditions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Conditions a {
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+
+
+}
+
+#mesconditions {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+
+
+.section {
+    width: 75%;
+
+    border: 3px solid #03010191;
+    padding-left: 20px;
+    padding-right: 15px;
+    border-radius: 10px;
+    background-color: rgba(214, 202, 202, 0.205);
+
+
+}
+
+h2 {
+    text-decoration: underline;
+    color: rgb(136, 121, 99);
+}
+
+p {
+    font-family: "rubik";
+
+}
+
+
+hr {
+    color: black;
+    width: 40%;
+}
