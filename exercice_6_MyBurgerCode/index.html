@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>myburgercode-accueil</title>
+</head>
+
+<body class="bg-light">
+    <header
+        class="d-flex flex-column flex-md-row  align-items-center justify-content-md-between px-3 py-2">
+        <div class="d-none d-md-flex">
+            <span>Rejoignez-nous sur les réseaux :</span>
+            <img class="img-fluid mx-2" src="./f1.png" alt="logo">
+            <img class="img-fluid" src="./i1.png" alt="logo">
+        </div>
+        <div>
+            <a href="https://deliveroo.co.uk/"><button class="btn btn-success">Commandez sur Deliveroo !</button></a>
+
+        </div>
+
+    </header>
+
+    <!-- <nav class="navbar navbar-expand-lg bg-dark navbar-dark border-top border-bottom border-warning border-3 py-3 px-5"> -->
+    <!-- Correction  -->
+
+    <!-- barre de navigation  -->
+    <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark  border-top border-bottom border-warning border-5 sticky-top">
+
+        <header class="container">
+            <a class="navbar-brand" href="index.html"><img src="image/img/Logo-block-light.svg" width="100"
+                    alt="logo"></a>
+            <!-- navbar sur les mobiles -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto"> <!-- ms-auto = margin-start => permet d'aligner la balise à droite -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./menus.html">Menus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </nav>
+
+    <!-- <button class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#menu"> -->
+    <!-- <img class="img-fluid w-25" src="./image/img/Logo-block-light.png" alt="Logo"> 
+        </button>-->
+    <!-- 
+        <div class="d-none d-lg-block">
+            <img class="img-fluid w-25" src="./image/img/Logo-block-light.png" alt="Logo">
+        </div> -->
+
+
+    <!-- <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link text-white styleh" href="#">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link text-white styleh mx-lg-3" href="#">Menus</a></li>
+                <li class="nav-item"><a class="nav-link text-white styleh" href="#">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav> -->
+
+    <div class="container-fluid p-0">
+
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!-- textes au dessus de l'image  -->
+                    <div class="carousel-caption d-none d-md-block mb-3">
+                        <h3>Découvrez le duo de burgers</h3>
+                        <p>Vous hésitez entre deux burgers, prenez les deux !</p>
+                        <a href="menus.html" class="btn btn-warning">Découvrir</a>
+                    </div>
+                    <!-- overlay pour assombrir l'image et optimiser la lecture du texte  -->
+                    <div class="overlay"> </div>
+                    <!-- source de l'image  -->
+                    <img src="./image/img/Frame1-carousel.jpg" class="d-block w-100" alt="img">
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block mb-3">
+                        <h3>Découvrez le menu classique</h3>
+                        <p>Vous allez aimer votre burger bien accompagné !</p>
+                        <a href="menus.html" class="btn btn-warning">Découvrir</a>
+                    </div>
+                    <div class="overlay">
+                    </div>
+                    <img src="./image/img/Frame2-carousel.jpg" class="d-block w-100 " alt="img">
+
+                </div>
+                <div class="carousel-item">
+
+                    <div class="carousel-caption d-none d-md-block mb-3">
+                        <h3>Découvrez le burger du mois</h3>
+                        <p>Chaque mois on vous fait découvrir une spécialité. </p>
+                        <a href="menus.html" class="btn btn-warning">Découvrir</a>
+                    </div>
+                    <div class="overlay">
+
+                    </div>
+
+
+                    <img src="./image/img/Frame3-carousel.jpg" class="d-block w-100" alt="img">
+                </div>
+            </div>
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Suivant</span>
+            </button>
+        </div>
+    </div>
+
+
+    <div class="container-fluid bg-light text-center py-5">
+        <p class="fst-italic" id="l1">
+            Bienvenue au
+        </p>
+        <h1 id="l2">
+            Burger Code de Roubaix
+        </h1>
+        <h2 id="l3">Votre fast-food familial vous accueille du mardi au dimanche au 20 rue du Luxembourg à Roubaix.</h2>
+        <p id="l4">
+            Venez déguster de savoureux burgers, pour toute la famille.
+        </p>
+
+        <p id="l5">
+            Découvrez notre menu et commandez en ligne simplement afin d'être livré pour une commande rapide et l'esprit
+            tranquille :
+        </p>
+
+        <p id="l6">
+            notre partenaire Deliveroo vous confirmera en direct le temps d'attente pour la livraison de votre commande
+        </p>
+
+        <p id="l7">N'hésitez plus, venez découvrir <span id="BC">#BurgerCode !</span>
+
+        </p>
+
+
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-lg-6 bg-warning d-flex flex-column align-items-center text-center gap-2 containerleft">
+                <h6>Commandez en ligne</h6>
+                <a href="https://deliveroo.co.uk/"><button class="btn btn-success">Commandez sur Deliveroo
+                        !</button></a>
+
+
+
+            </div>
+
+
+            <div class="col-lg-6  p-0 mt-3 mt-lg-0">
+                <img class="img-fluid h-100" src="./image/img/frame6.jpg" alt="img">
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="container bg-light p-0">
+        <div class="row ">
+
+
+            <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center mt-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./image/img/c1.png" class="card-img-top" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">Un service rapide</h5>
+                        <p class="card-text">Nous savons que quand on a faim, notre patience a des limites ! Alors nous
+                            faisons notre maximum pour vous servir le plus rapidement possible.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center mt-4 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="./c2.png" class="card-img-top" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">La meilleure qualité</h5>
+                        <p class="card-text">Nous selectionnons chaque ingrédient pour ses qualités et sa fraicheur.
+                            Vous êtes assurés de manger sainement, oui oui... enfin presque quand même.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center mt-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./c3.png" class="card-img-top" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">Un service chaleureux</h5>
+                        <p class="card-text">Vous serez toujours accueillis dans la joie et la bonne humeur, nos clients
+                            sont comme des amis avec qui nous partageons un bon moment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid mt-4">
+        <div class="row">
+
+            <div class="col-lg-6 bg-dark d-flex flex-column align-items-center text-center containerleft gap-2">
+                <h6 class="text-white">Découvrez nos menus</h6>
+                <a href="./menus.html"><button class="btn btn-warning">Nos menus
+                        !</button></a>
+
+            </div>
+
+
+            <div class="col-lg-6 p-0 mt-3 mt-lg-0"> <img class="img-fluid h-100 w-100" src="./image/img/resto.png"
+                    alt="img">
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer class="bg-dark mt-5 border-top border-warning border-3">
+        <div class="container-fluid">
+            <div class="row align-items-center flex-column flex-md-row gap-3 gap-md-0">
+                <div class="col-md-4 p-0 text-center text-md-start">
+                    <span id="Copy" class="text-secondary m-0">© 2022 Burger Code, MyburgerCode</span>
+                </div>
+
+
+                <div class="col-md-4 p-0 justify-content-center">
+                    <nav class="d-flex justify-content-center">
+                        <a class="nav-link text-white" href="./index.html">Accueil</a>
+                        <a class="nav-link text-white" href="./menus.html">Menus</a>
+                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                    </nav>
+                </div>
+
+
+
+
+
+
+                <div class="col-md-4 p-0  text-center text-md-end">
+                    <img class="img-fluid" src="./f.png" alt="logo">
+                    <img class="ms-3 img-fluid" src="./i.png" alt="logo">
+                </div>
+
+
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+
+</html>
